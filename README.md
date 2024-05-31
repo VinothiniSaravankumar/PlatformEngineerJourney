@@ -35,3 +35,33 @@ To become a proficient Platform Engineer by building on my existing skills, gain
   ```sh
   docker pull hello-world
 
+### Day 3: Build a simple python application using docker
+
+- Create a folder
+- create a file app.py, enter a print, save the file.
+- create a file called docker file with the below code
+  
+  ```
+    # Use the official Python base image
+      FROM python:3.9-slim
+
+    # Set the working directory in the container
+      WORKDIR /app
+
+    # Copy the current directory contents into the container at /app
+      COPY . /app
+
+    # Run app.py when the container launches
+      CMD ["python", "app.py"]
+
+  ```
+- Go to Command prompt and execute the command to build docker image for the python app.
+  ```
+    docker build -t python-hello-docker .
+  ```
+- Execute docker run to see the output
+  ```
+    docker run python-hello-docker
+  ```
+  
+
