@@ -38,8 +38,8 @@ To become a proficient Platform Engineer by building on my existing skills, gain
 ### Step 3: Build a simple python application using docker
 
 - Create a folder
-- create a file app.py, enter a print, save the file.
-- create a file called docker file with the below code
+- create a file app.py, enter a print statement and save the file.
+- create a file called docker file with the below code to containerize the application
   
   ```
     # Use the official Python base image
@@ -59,7 +59,7 @@ To become a proficient Platform Engineer by building on my existing skills, gain
   ```
     docker build -t python-hello-docker .
   ```
-- Execute docker run to see the output
+- Execute docker run to run the container
   ```
     docker run python-hello-docker
   ```
