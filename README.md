@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello! My name is [Your Name], and I am a software testing professional with basic knowledge of Python and SQL. This repository will document my journey as I transition into a platform engineering role. I will be updating this space with my progress, projects, and any valuable resources I come across.
+Hello! My name is Vinothini, and I am a software testing professional with basic knowledge of Python and SQL. This repository will document my journey as I transition into a platform engineering role. I will be updating this space with my progress, projects, and any valuable resources I come across.
 
 ## Current Skills
 
