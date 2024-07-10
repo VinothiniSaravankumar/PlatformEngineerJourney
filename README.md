@@ -64,7 +64,7 @@ To become a proficient Platform Engineer by building on my existing skills, gain
     docker run python-hello-docker
   ```
 
-  ### Project 1 - Create a simple webserver
+  ### Step 4: Project 1 - Create a simple webserver
 
   - Launch a EC2 Instance in AWS
       Go to EC2, click on launch instance
