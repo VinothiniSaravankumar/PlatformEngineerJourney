@@ -63,5 +63,27 @@ To become a proficient Platform Engineer by building on my existing skills, gain
   ```
     docker run python-hello-docker
   ```
-  
+
+  ### Project 1 - Create a simple webserver
+
+  - Launch a EC2 Instance in AWS
+      Go to EC2, click on launch instance
+      Enter a name for the instance 
+      Select the Image name as Ubuntu ( You can select any image)
+      Select Instance type as t2.micro
+      Create a keypair login if you need to login using putty from windows machine.
+      Select Checkboxes - Allow SSH traffic, Allow HTTPS traffic, Allow HTTP traffic
+      Click on Launch instances
+  - Once the instance is created, execute the below commands in the Ubuntu EC2 instance
+      sudo apt update && sudo apt upgrade
+      sudo apt install apache2
+      sudo service apache2 start
+  - Open the Public IP address of EC2 instance in a browser
+      It should open the ubuntu server welcome page
+  - Update the index.html
+      Go to /var/www/html
+      delete the existing index.html and create a new index.html file
+      restart apache2 service
+  - reload the IP Address
+      It should Open the new index.html page created
 
